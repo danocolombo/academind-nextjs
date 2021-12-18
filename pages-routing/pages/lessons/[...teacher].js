@@ -1,0 +1,12 @@
+import { useRouter } from 'next/router';
+function LessonTeacherPage() {
+    const router = useRouter();
+    console.log(router.pathname);
+    console.log(router.query);
+    return (
+        <div>
+            <h2>Lesson Teacher Page</h2>
+        </div>
+    );
+}
+export default LessonTeacherPage;
