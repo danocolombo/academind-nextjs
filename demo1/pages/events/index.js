@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function EventsPage() {
+export default function AllEventsPage() {
     return (
         <div>
-            <h2>Main Events Page</h2>
+            <h2>All Events Page</h2>
         </div>
     );
 }
