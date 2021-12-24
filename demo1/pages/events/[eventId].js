@@ -15,11 +15,12 @@ export default function EventDetailPage() {
   if (!theEvent) {
     // no event found
     return (
-    <Fragment>
-      <EventAlert>
-      <p>No Event Found</p>
-      </EventAlert>
-      </Fragment>);
+      <Fragment>
+        <EventAlert>
+          <p>No Event Found</p>
+        </EventAlert>
+      </Fragment>
+    );
   }
   return (
     <Fragment>

@@ -1,6 +1,5 @@
 import { Fragment } from 'react';
 import { useRouter } from 'next/router';
-import { getAllEvents, FindEvent } from '../../dummy-data.js';
 import EventList from '../../components/events/event-list';
 import EventSearch from '../../components/events/events-search.js';
 
@@ -12,7 +11,6 @@ export default function AllEventsPage() {
     function findEventsHandler (year, month) {
         // create slug destination
         const fullPath = `/events/${year}/${month}`;
-        
 ;        router.push(fullPath);
     }
     if (!theEvents) {
